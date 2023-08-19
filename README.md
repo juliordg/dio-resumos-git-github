@@ -21,3 +21,12 @@ Repositorio para armazenar resumos sobre Git r GitHub do curso de vrsionamento d
 		clona  		repositorio					criapasara nova
 
 	git clone http://github-URL do repositorio --branch feature-1 --single-branch => clonanado apens uma branch
+ 	echo resumos/ > .gitignore    - adiciona a pasta resumos no gitignore
+	echo > .gitignore    - remove o que estiver no .gitignore
+	.gitkeep => usado para reconhecer diretorio vazios 
+	rm -rf nome da pasta força a exclusão da pasta
+	git restore =>  restaura arquivos modificados para seu ultimo estado
+	git commit --amend -m"nova menssagem" => aterar a menssagem do commit
+	git reset --soft => escluir commit
+	git reset --mixed => escluir commit
+	git reset --hard => escluir commit e apaga os arquivos
